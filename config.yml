@@ -1,0 +1,13 @@
+# Site configuration
+
+title: "Welcome to Spress"
+description: "A site creted by Spress"
+
+paginate: 2
+
+exclude: ['README.md']
+
+author:
+    name: "Your Name"
+    email: "your@email.com"
+    twitter: yosymfony # Only your username without '@'
