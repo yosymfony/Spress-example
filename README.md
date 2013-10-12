@@ -21,6 +21,6 @@ Run
 The best way to see your result is use the PHP built-in server:
 
 ```
-$ cd Spress-examplo
+$ cd Spress-example
 $ php -S localhost:8080 -t _site
 ```
