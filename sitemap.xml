@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>http://yosymfony.github.io/Spress-example/2013/10/04/tables/</loc>
+    <lastmod>2013-10-04T15:53:32+0000</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+     <url>
+    <loc>http://yosymfony.github.io/Spress-example/2013/10/05/your-text/</loc>
+    <lastmod>2013-10-05T15:53:32+0000</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+     <url>
+    <loc>http://yosymfony.github.io/Spress-example/2013/10/06/hello/</loc>
+    <lastmod>2013-10-06T15:53:32+0000</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+     <url>
+    <loc>http://yosymfony.github.io/Spress-example/2013/10/05/videos/</loc>
+    <lastmod>2013-10-05T15:53:32+0000</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   </urlset>
