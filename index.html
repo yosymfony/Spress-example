@@ -9,11 +9,11 @@ layout: page
     {% if paginator.total_pages > 1 %}
     	<ul class="pagination">
     		{% if paginator.previous_page %}
-    			<li>
-                    <a class="prev" href="/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">
-                        &laquo; Newer
-                    </a>
-                </li>
+            <li>
+                <a class="prev" href="/{%if paginator.previous_page > 1 %}page{{ paginator.previous_page }}/{% endif %}">
+                    &laquo; Newer
+                </a>
+            </li>
     		{% endif %}
     
     		{% for page in (1..paginator.total_pages) %}
