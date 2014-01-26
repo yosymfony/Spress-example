@@ -1,13 +1,51 @@
-# Site configuration
-
-title: "Welcome to Spress"
+title: "Welcome to Spresso theme"
 description: "A site creted by Spress"
+logo: spresso-logo.png
 
+# Your site's domain. E.g: http://yoursite.com
+url: http://yosymfony.github.io/Spress-example
+
+# Comments in posts
+comments:
+    enabled: true
+    disqus_shortname: yosymfony
+
+# Information about author
+author:
+    name: Yo! Symfony
+    
+    # Social networks
+    twitter: spress_cms
+    github: https://github.com/yosymfony/Spress
+    bitbucket:
+    facebook:
+    linkedin:
+    gplus:
+    youtube:
+
+# RSS feed
+feed:
+    max_item: 10
+    
+# Facebook Open Graph
+open_graph:
+    locale: en_US
+    
+# Code highlight for <pre> and <code> tags
+# Powered by http://highlightjs.org/
+code_highlight: true
+
+# Site validation
+google_verify:
+bing_verify:
+
+# Page menus
+top_menu:
+    - { name: Home, url: / }
+    
+bottom_menu:
+    - { name: Go to Spresso theme web, url: https://github.com/yosymfony/Spress-theme-spresso }
+    
 paginate: 2
 
-exclude: ['README.md']
-
-author:
-    name: "Your Name"
-    email: "your@email.com"
-    twitter: yosymfony # Only your username without '@'
+exclude: ['README.md', 'LICENSE','composer.json']

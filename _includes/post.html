@@ -5,21 +5,37 @@
         </h1>
     </header>
     
-    {{ post.content | default(page.content) }}
+    {{ post.content }}
     
+    {% if isPostLayout %}
     <footer>    
         <p>
         	Posted by {{ site.author.name }} on <time pubdate="pubdate">{{ post.date | date('Y-m-d') }}</time>
         </p>
+        <ul class="list-unstyled">
+            <li>
+                <i class="fa fa-tags"></i>
+                {{ post.tags | join(', ') }}
+            </li>
+            <li>
+                <i class="fa fa-folder"></i>
+                {{ post.categories | join(', ') }}
+            </li>
+        </ul>
     </footer>
+    {% endif %}
     
-    {% if isPostLayout and page.disqus_comments %}
-        <section>
-            <h3>Comments</h3>
-            <div id="disqus_thread"></div>
-            <noscript>Please enable JavaScript to view the
-                <a href="http://disqus.com/?ref_noscript=hunch">comments powered by Disqus.</a>
-            </noscript>
-        </section>
+    {% if isPostLayout %}
+        {% if (page.comments is defined and page.comments) or (page.comments is not defined and site.comments.enabled) %}
+            <section>
+                <h3>Comments</h3>
+                <div id="disqus_thread"></div>
+                <noscript>
+                    Please enable JavaScript to view the
+                    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                </noscript> 
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </section>
+        {% endif %}
     {% endif %}
 </article>
