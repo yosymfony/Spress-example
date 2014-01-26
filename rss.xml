@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Welcome to Spresso theme</title>
+        <link>http://yosymfony.github.io/Spress-example</link>
+        <description>RSS feed for Welcome to Spresso theme</description>
+        <atom:link href="http://yosymfony.github.io/Spress-example/rss.xml" rel="self" type="application/rss+xml" />
+                    <item>
+                <title>tables</title>
+                <description><![CDATA[<table>
+<thead>
+<tr>
+  <th>Tables</th>
+  <th align="center">Are</th>
+  <th align="right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>col 3 is</td>
+  <td align="center">right-aligned</td>
+  <td align="right">$1600</td>
+</tr>
+<tr>
+  <td>col 2 is</td>
+  <td align="center">centered</td>
+  <td align="right">$12</td>
+</tr>
+<tr>
+  <td>zebra stripes</td>
+  <td align="center">are neat</td>
+  <td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+]]></description>
+                <link>http://yosymfony.github.io/Spress-example/example/2013/10/04/tables/</link>
+                <pubDate>Fri, 04 Oct 2013 17:51:16 +0000</pubDate>
+                <guid>http://yosymfony.github.io/Spress-example/example/2013/10/04/tables/</guid>
+            </item>
+                    <item>
+                <title>your text</title>
+                <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Duis placerat scelerisque arcu, ut molestie urna lobortis in. 
+Sed bibendum porta massa et scelerisque. Nunc in ornare sem, 
+eu rutrum elit. Nam id dignissim odio, eget adipiscing risus. 
+Cras sem ligula, volutpat et ligula sit amet, consectetur pretium odio. 
+In scelerisque ligula vel sagittis placerat. Quisque tempus, risus 
+nec porttitor varius, felis magna molestie lacus, et pretium mauris.</p>
+
+<blockquote>
+  <p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+  consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+  Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+  
+  <p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+  id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+
+<p>Nulla vel scelerisque felis. Cras turpis erat, egestas consequat molestie et, 
+pharetra non eros. Donec aliquet augue id nulla tempor pellentesque.</p>
+]]></description>
+                <link>http://yosymfony.github.io/Spress-example/example/2013/10/05/your-text/</link>
+                <pubDate>Sat, 05 Oct 2013 17:51:16 +0000</pubDate>
+                <guid>http://yosymfony.github.io/Spress-example/example/2013/10/05/your-text/</guid>
+            </item>
+                    <item>
+                <title>hello</title>
+                <description><![CDATA[<p>Hello and welcome to <strong>Spress, a static site generator capable to generate
+blogs sites</strong>. Your post can be write in Markdown and your templates are
+writing with <a href="http://twig.sensiolabs.org/documentation">Twig</a>. If you want know more about
+Markdown, see <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet by Adam Pritchard</a>.</p>
+]]></description>
+                <link>http://yosymfony.github.io/Spress-example/example/2013/10/06/hello/</link>
+                <pubDate>Sun, 06 Oct 2013 17:51:16 +0000</pubDate>
+                <guid>http://yosymfony.github.io/Spress-example/example/2013/10/06/hello/</guid>
+            </item>
+                    <item>
+                <title>videos</title>
+                <description><![CDATA[<p>Video in your posts:</p>
+
+<iframe src="//player.vimeo.com/video/76512663?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=afd9cd" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>MUTE is an animated short about a world populated by people born without a mouth. 
+When a gory accident leads to the discovery they are able to create their own mouth 
+by cutting themselves, this releases an enthusiastic chain reaction among the 
+population&hellip;</p>
+
+<p>This 4 minute cgi short has been created by Job, Joris &amp; Marieke, a 
+Dutch studio for animation, illustration, character design and music. 
+In 2011 Job, Joris &amp; Marieke made the music video &#039;I&#039;ll take you 
+along&#039; for Dutch rapper Gers Pardoel which has been viewed over 15 million times. 
+The music was made by Happy Camper, and all voices were done by Fresku!</p>
+
+<p>MUTE premiered at the Dutch Film Festival in the Golden Calf competition and was 
+screened at the Anim&#039;est festival in Bucarest. More festival news can be 
+found on the <a href="http://jobjorisenmarieke.nl/mute">MUTE website</a>.</p>
+]]></description>
+                <link>http://yosymfony.github.io/Spress-example/example/2013/10/05/videos/</link>
+                <pubDate>Sat, 05 Oct 2013 17:51:16 +0000</pubDate>
+                <guid>http://yosymfony.github.io/Spress-example/example/2013/10/05/videos/</guid>
+            </item>
+            </channel>
+</rss>
